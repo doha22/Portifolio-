@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portifolio-/static/css/main.413d79aa.chunk.css",
+    "main.js": "/Portifolio-/static/js/main.86815b96.chunk.js",
+    "main.js.map": "/Portifolio-/static/js/main.86815b96.chunk.js.map",
+    "runtime-main.js": "/Portifolio-/static/js/runtime-main.5aec84de.js",
+    "runtime-main.js.map": "/Portifolio-/static/js/runtime-main.5aec84de.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/Portifolio-/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.c779dbd7.chunk.js": "/Portifolio-/static/js/2.c779dbd7.chunk.js",
+    "static/js/2.c779dbd7.chunk.js.map": "/Portifolio-/static/js/2.c779dbd7.chunk.js.map",
+    "index.html": "/Portifolio-/index.html",
+    "precache-manifest.6aeb902727368da8430401f5114dc8c9.js": "/Portifolio-/precache-manifest.6aeb902727368da8430401f5114dc8c9.js",
+    "service-worker.js": "/Portifolio-/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/Portifolio-/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.413d79aa.chunk.css.map": "/Portifolio-/static/css/main.413d79aa.chunk.css.map",
+    "static/js/2.c779dbd7.chunk.js.LICENSE.txt": "/Portifolio-/static/js/2.c779dbd7.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.png": "/Portifolio-/static/media/bootstrap.5c58e1a2.png",
+    "static/media/css.png": "/Portifolio-/static/media/css.88580b94.png",
+    "static/media/jquery.png": "/Portifolio-/static/media/jquery.b873c3c1.png",
+    "static/media/laravel.png": "/Portifolio-/static/media/laravel.77a0f888.png",
+    "static/media/mysql.png": "/Portifolio-/static/media/mysql.bab2c760.png",
+    "static/media/nestjs.png": "/Portifolio-/static/media/nestjs.bf21386e.png",
+    "static/media/nodejs.png": "/Portifolio-/static/media/nodejs.0b311c42.png",
+    "static/media/php.png": "/Portifolio-/static/media/php.8ef414b9.png",
+    "static/media/postgress.png": "/Portifolio-/static/media/postgress.1f8fb15c.png",
+    "static/media/pro2.jpg": "/Portifolio-/static/media/pro2.f2de08a9.jpg",
+    "static/media/python.png": "/Portifolio-/static/media/python.76fc9aa2.png",
+    "static/media/react.png": "/Portifolio-/static/media/react.b5e2b8ca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5aec84de.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.c779dbd7.chunk.js",
+    "static/css/main.413d79aa.chunk.css",
+    "static/js/main.86815b96.chunk.js"
+  ]
+}

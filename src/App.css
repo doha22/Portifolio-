@@ -1,6 +1,8 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #f1edc1;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -9,6 +11,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
+
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -35,4 +38,240 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+:root{
+  --sidebar-flex:1.5;
+  --condiv-flex:6;
+  --fontsize-p:1.2rem;
+  --fontsize-nav:1.6rem;
+  --typing-font:3rem;
+  }
+  *{
+  margin:0;
+  padding: 0;
+  
+  font-family: 'Raleway';
+  }
+  .App{
+  display: flex;
+  width: auto;
+ min-height: auto;
+ 
+  }
+  
+  /* .condiv class is for the right side content container*/
+  .condiv {
+  padding: 6% ;
+  padding-bottom: 16%;
+  background-color: #f2eebd85;
+  flex:var(--condiv-flex);
+ 
+  }
+
+  nav
+{
+padding:60px 30px 0px 30px ;
+flex:var(--sidebar-flex);
+/* background-image: url(images/bg.jpg); */
+background: rgb(194,235,233);
+background: linear-gradient(0deg, rgba(194,235,233,1) 0%, rgba(182,95,206,1) 28%, rgba(243,249,191,1) 83%, rgba(236,211,175,0.87718837535014) 100%);
+/* background: rgb(238,103,143);
+background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%); */
+}
+
+nav ul
+{
+  font-size:var(--fontsize-nav) ;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: white !important;
+}
+nav ul li
+{
+  padding-top: 20px;
+  margin:20px;
+  color:#0b0d10b0;
+}
+
+.active
+{
+font-weight: bolder;
+}
+.home
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.projects{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  /* align-items: center; */
+  padding-bottom:90%;
+  
+}
+
+
+.social{
+  position: relative;
+  /* margin-top: -170px; */
+ 
+  
+   /* margin-bottom: 15%;  */
+}
+.social i{
+  padding-right: 30px;
+  font-size: 25px;
+  color: #9a9b9c;
+}
+.social i:hover{
+  color: #ffffff;
+}
+.social_logos{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.profilepic
+{
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+}
+.typingeffect
+{
+  font-size: var(--typing-font);
+  margin-bottom: 30px;
+}
+
+.subtopic
+{
+margin:10px 10px 30px 10px !important;
+}p
+{
+font-size: var(--fontsize-p);
+}h1,h2,h3,h4,p
+{
+margin: 10px;
+}
+
+
+
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 100px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	width: 300px;
+}
+
+.progress-done {
+	background: linear-gradient(to left, #F2709C, #FF9472);
+	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	border-radius: 100px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+
+.skills_h ul{
+  overflow-x: hidden;
+}
+
+.skills_h li{
+  /* padding-left: 20px; */
+  display: inline-block;
+}
+
+.skills_icon{
+  border-radius: 10%;
+  width: 8%;
+}
+
+.skills_header{
+  color:#0b0d10b0;
+}
+
+
+
+.contact{
+  /* background-color:#dfc6c3; */
+ border-radius: 5%;
+ 
+  border:none;
+  width:300px;
+  opacity: 0.5;
+  /* box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); */
+
+}
+
+.work{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+ 
+}
+
+.about{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+
+.data_line ul{
+  counter-reset: list;
+  border-left: 2px solid lightgrey;
+  margin: 1em;
+  padding: 0;
+}
+
+.data_line li{
+  list-style: none;
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
+
+.data_line ul li:before {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0 0.5em 0 -0.65em;
+  border-radius: 50%;  
+  content: counter(list);
+  text-align: center;
+  background: lightgrey;
+  counter-increment: list;
+}
+
+
+.progress-div {
+  background-color: rgb(233, 233, 233);
+  border-radius: .5rem;
+}
+
+.progress {
+  background-color: rgb(62, 122, 235);
+  height: 10px;
+  border-radius: 1rem;
+  transition: 1s ease;
+  transition-delay: 0.5s;
+}
+
+.contact-card{
+  /* margin-top: 350px; */
+  margin-top:20px;
+  opacity: 0.5;
 }
